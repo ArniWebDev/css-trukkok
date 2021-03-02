@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Oswald", sans-serif;
+}
+
+.container {
+	height: 100vh;
+	display: grid;
+	place-items: center;
+	background-color: indigo;
+}
+
+h1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	text-transform: uppercase;
+	font-size: 15em;
+	letter-spacing: 0.2em;
+	line-height: 0.9;
+	width: 80vw;
+	height: 40vw;
+
+	background-image: url("https://cdn.pixabay.com/photo/2021/01/21/16/17/english-cocker-spaniel-5937757_960_720.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}

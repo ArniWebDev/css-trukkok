@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* https://bennettfeely.com/clippy/ */
+
+.container {
+	height: 50vh;
+	display: grid;
+	place-items: center;
+	background-color: slategrey;
+}
+
+.container div {
+	width: 400px;
+	height: 400px;
+}
+
+.clip-1 {
+	background-color: green;
+	clip-path: circle();
+}
+
+.clip-2 {
+	background-color: yellow;
+	clip-path: polygon(0% 25%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.clip-3 {
+	background-color: darksalmon;
+	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+/* .clip-3 {
+	background-color: darksalmon;
+	clip-path: polygon(
+		50% 0%,
+		0% 100%,
+		25% 100%,
+		25% 75%,
+		50% 25%,
+		75% 75%,
+		25% 75%,
+		25% 100%,
+		100% 100%
+	);
+} */
+
+.clip-4 {
+	background-color: greenyellow;
+	clip-path: polygon(
+		20% 0%,
+		0% 20%,
+		30% 50%,
+		0% 80%,
+		20% 100%,
+		50% 70%,
+		80% 100%,
+		100% 80%,
+		70% 50%,
+		100% 20%,
+		80% 0%,
+		50% 30%
+	);
+}
+
+.clip-5 {
+	background-color: turquoise;
+	clip-path: polygon(
+		0% 0%,
+		100% 0%,
+		100% 75%,
+		75% 75%,
+		75% 100%,
+		50% 75%,
+		0% 75%
+	);
+}
+
+.clip-6 {
+	background-color: indigo;
+	clip-path: polygon(
+		0% 0%,
+		0% 100%,
+		25% 100%,
+		25% 25%,
+		75% 25%,
+		75% 75%,
+		25% 75%,
+		25% 100%,
+		100% 100%,
+		100% 0%
+	);
+}

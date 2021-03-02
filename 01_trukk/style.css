@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Oswald";
+}
+
+.container {
+	height: 100vh;
+	font-size: 8vw;
+}
+
+.grid {
+	display: grid;
+	place-items: center;
+	background-color: aquamarine;
+}
+
+/* Flex containerben helyezuk el az elemet kozepre */
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: chocolate;
+}
+
+/* Flex containerben eleme helyezi el magat kozepre */
+/* .flex {
+	display: flex;
+	background-color: chocolate;
+}
+
+.flex h2 {
+	margin: 0 auto;
+	align-self: center;
+} */
